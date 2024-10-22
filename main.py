@@ -47,7 +47,7 @@ def word_game():
         if user_answer.lower() == translation_word.lower():
             print('Правильно!')
         else:
-            print(f'Неправильно. Правильным словом было:  {word}, \nчто означает:  {translation_word}')
+            print(f'Неправильно. Правильным словом было:  {translation_word}, \nчто означает:  {word}')
 
         # Проверяем, хочет ли пользователь сыграть еще раз
         play_again = input('Хотите сыграть еще раз? (y/n) ')
